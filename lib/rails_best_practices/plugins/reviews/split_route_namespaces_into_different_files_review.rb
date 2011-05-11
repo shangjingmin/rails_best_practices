@@ -6,8 +6,12 @@ module RailsBestPractices
   module Plugins
     module Reviews
       class SplitRouteNamespacesIntoDifferentFilesReview < RailsBestPractices::Reviews::Review
-        def debug
-        end
+#        def debug
+#        end
+	def url
+	  "http://rails-bestpractices.com/posts/73-split-route-namespaces-into-different-files"
+	end
+
         def interesting_nodes
           [:call]
         end
